@@ -29,7 +29,6 @@ namespace WindowsFormsApp1
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            int a = 0;
             Cur_label.Text = "X : " + Cursor.Position.X.ToString() + Cursor.Position.Y.ToString();
         }
 
